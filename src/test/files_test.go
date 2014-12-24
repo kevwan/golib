@@ -1,7 +1,8 @@
 package test
 
 import (
-	"github.com/kevwan/golib"
+	"files"
+	"os"
 	"testing"
 )
 
@@ -11,7 +12,6 @@ func TestIsFileExistFalse(t *testing.T) {
 	}
 }
 
-/*
 func TestIsFileExistTrue(t *testing.T) {
 	path := "notexistatall"
 	if file, err := os.Create(path); err != nil {
@@ -24,4 +24,3 @@ func TestIsFileExistTrue(t *testing.T) {
 		}
 	}
 }
-*/

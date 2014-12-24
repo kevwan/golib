@@ -1,8 +1,8 @@
 package main
 
 import (
+	"files"
 	"fmt"
-	"kevin/files"
 )
 
 func main() {

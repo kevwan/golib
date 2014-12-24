@@ -1,9 +1,9 @@
 package net
 
 import (
+	"files"
 	"fmt"
 	"io"
-	"kevin/files"
 	"net/http"
 	"os"
 )
